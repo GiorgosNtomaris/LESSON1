@@ -1,4 +1,4 @@
-(function () {
+function () {
   var baseLocation;
   if (typeof document !== 'undefined') {
     baseLocation = new URL('./', document.currentScript.src);
